@@ -3,7 +3,7 @@
 //*****************************************************
 
 .contact-bgImg-container {
-  @include bgImg(150vh, "../../img/bg-6.jpg");
+  @include bgImg(150vh, "../img/bg-6.jpg");
   nav {
     // border:2px solid red;
     height: 40vh;

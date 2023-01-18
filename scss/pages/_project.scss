@@ -1,5 +1,5 @@
 .project-bgImg-container {
-  @include bgImg(100vh, "../../img/bg-7.jpg");
+  @include bgImg(100vh, "../img/bg-7.jpg");
   display: flex;
   flex-direction: column;
   justify-content: space-between;

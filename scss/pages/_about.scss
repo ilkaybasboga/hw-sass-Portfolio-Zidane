@@ -1,7 +1,7 @@
 //***** ABOUT********
 
 .about-bgImg-container{
-    @include bgImg(120vh,"../../img/bg-2.png");
+    @include bgImg(120vh,"../img/bg-2.png");
     display: flex;
     flex-direction: column;
     justify-content: space-between;
