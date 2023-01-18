@@ -1,0 +1,49 @@
+@mixin transition($sec){
+    transition: all $sec;
+}
+
+@mixin bgImg($height,$url){
+    height:$height;
+    width: 100%;
+    background:url($url);
+    // background: linear-gradient(
+    //     to right,
+    //     rgba($second-color,0.9)
+    //     rgba($second-color,0.3)
+    // );
+   
+    background-position: center center;
+    // background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@mixin media-xsm {
+    @media (max-width: 375px) {
+      @content;
+    }
+  }
+  
+  @mixin media-sm {
+    @media screen and (max-width: 576px) {
+      @content;
+    }
+  }
+  
+  @mixin media-md {
+    @media screen and (max-width: 768px) {
+      @content;
+    }
+  }
+  
+  @mixin media-lg {
+    @media screen and (max-width: 1024px) {
+      @content;
+    }
+  }
+  
+  @mixin media-xl {
+    @media screen and (max-width: 1600px) {
+      @content;
+    }
+  }
+  

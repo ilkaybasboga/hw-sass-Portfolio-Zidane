@@ -1,0 +1,36 @@
+//*****************************************************
+//*   CONTACT PAGE
+//*****************************************************
+
+.contact-bgImg-container {
+  @include bgImg(150vh, "../../img/bg-6.jpg");
+  nav {
+    // border:2px solid red;
+    height: 40vh;
+  }
+}
+.contact {
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 3rem;
+  h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    color: $second_color;
+  }
+  &__list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 1.5rem;
+    gap: 2rem 2rem;
+    justify-content: center;
+    // align-items: center;
+  }
+  .text-secondary {
+    color: $primary_color;
+  }
+}

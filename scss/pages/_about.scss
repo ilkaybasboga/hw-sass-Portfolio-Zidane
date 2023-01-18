@@ -1,0 +1,40 @@
+//***** ABOUT********
+
+.about-bgImg-container{
+    @include bgImg(120vh,"../../img/bg-2.png");
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.about__bio-image{
+text-align: center;
+h2{
+    font-size: 3rem;
+    color: $second_color;
+
+}
+p {
+    color:$primary_color;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+}
+
+.about{
+    &__container{
+        // border: 2px solid red;
+        width: 120vh;
+        margin: 2rem auto;
+    }
+    .about__job{
+        margin: 1rem;
+        color: white;
+        background-color: lighten($text_color, 10%);
+        border-bottom: 3px solid $primary_color;
+        padding: 1rem;
+        font-size: 0.8rem; 
+        line-height: 1.3rem;
+    }
+}
+

@@ -1,0 +1,25 @@
+//*********** HOME PAGE
+
+.home-bgImg-container{
+    @include bgImg(130vh,"../img/bg1.jpg")
+    // background-image: url(../.././img/bg1.jpg);
+}
+
+.home{
+    // border: 2px solid red;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items:flex-end;
+    padding: 2rem;
+    &__name{
+        
+        border-bottom:3px solid $primary_color;
+    &--last{
+        color:$primary_color;
+        font-size: 5rem;
+    }
+    }
+
+}

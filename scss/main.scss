@@ -1,0 +1,24 @@
+@import "./base/resert";
+
+@import "./abstracts/mixins", "./abstracts/variables";
+
+@import "./pages/about", "./pages/contact", "./pages/home", "./pages/project";
+
+@import "./components/footer", "./components/nav", "./components/responsive";
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css');
+
+body{
+    font-family: $font-family;
+    line-height: 3rem;
+    color: rgb(52, 51, 51);
+    height: 100vh;
+    background-color: $text_color;
+    background-attachment: fixed;
+}
+h1,h2,h3{
+    font-weight: 900;
+    
+   
+}
+

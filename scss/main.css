@@ -1,0 +1,213 @@
+@import url("//cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.about-bgImg-container {
+  height: 120vh;
+  width: 100%;
+  background: url("../../img/bg-2.png");
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.about__bio-image {
+  text-align: center;
+}
+.about__bio-image h2 {
+  font-size: 3rem;
+  color: rgb(45, 17, 32);
+}
+.about__bio-image p {
+  color: rgb(225, 23, 127);
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.about__container {
+  width: 120vh;
+  margin: 2rem auto;
+}
+.about .about__job {
+  margin: 1rem;
+  color: white;
+  background-color: #485656;
+  border-bottom: 3px solid rgb(225, 23, 127);
+  padding: 1rem;
+  font-size: 0.8rem;
+  line-height: 1.3rem;
+}
+
+.contact-bgImg-container {
+  height: 100vh;
+  width: 100%;
+  background: url("../../img/");
+  background-position: center center;
+  background-size: cover;
+}
+.contact-bgImg-container nav {
+  height: 40vh;
+}
+
+.home-bgImg-container {
+  height: 100vh;
+  width: 100%;
+  background: url("../img/bg1.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+.home {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 2rem;
+}
+.home__name {
+  border-bottom: 3px solid rgb(225, 23, 127);
+}
+.home__name--last {
+  color: rgb(225, 23, 127);
+  font-size: 5rem;
+}
+
+.project-bgImg-container {
+  height: 100vh;
+  width: 100%;
+  background: url("../../img/bg-7.jpg");
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.project-bgImg-container .project__bio-image {
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.projects__items {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2rem 5rem;
+  gap: 1rem 0;
+}
+.projects__item {
+  width: 33%;
+  border-bottom: 5px solid rgb(225, 23, 127);
+  position: relative;
+}
+.projects__item img {
+  width: 100%;
+  height: 20rem;
+}
+.projects__item::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: rgb(225, 23, 127);
+  position: absolute;
+  left: 0;
+  opacity: 0;
+  transition: all 0.5s;
+}
+.projects__item:hover::after {
+  opacity: 0.5;
+}
+
+.link-style a, footer.vertical .social-icons a, footer.horizontal a {
+  padding: 0.4rem;
+  color: rgb(45, 17, 32);
+  transition: all 1s;
+}
+.link-style a:hover, footer.vertical .social-icons a:hover, footer.horizontal a:hover {
+  color: rgb(225, 23, 127);
+}
+
+.copyright {
+  color: rgb(225, 23, 127);
+}
+
+footer.horizontal {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 1rem;
+}
+
+footer.vertical {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 1rem;
+}
+footer.vertical .social-icons {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  bottom: 1rem;
+}
+footer.vertical .copyright {
+  position: fixed;
+  bottom: 1rem;
+  right: 3rem;
+  writing-mode: vertical-lr;
+}
+footer.vertical i {
+  color: aliceblue;
+}
+
+.nav {
+  height: 10vh;
+  padding: 1rem;
+}
+.nav__list {
+  text-align: right;
+}
+.nav__item {
+  display: inline;
+  padding: 1rem;
+}
+.nav__link {
+  text-decoration: none;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(49, 58, 58);
+  font-weight: 500;
+  transition: all 1s;
+}
+.nav__link:hover {
+  color: beige;
+  background-color: rgb(45, 17, 32);
+  border-radius: 0.5rem;
+  padding: 0.2rem;
+}
+.nav__link--active {
+  color: rgb(225, 23, 127);
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 3rem;
+  color: rgb(52, 51, 51);
+  height: 100vh;
+  background-color: rgb(49, 58, 58);
+  background-attachment: fixed;
+}
+
+h1, h2, h3 {
+  font-weight: 900;
+}
+
+/*# sourceMappingURL=main.css.map */
