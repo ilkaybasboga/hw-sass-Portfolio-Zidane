@@ -232,7 +232,7 @@ footer.middle {
   color: rgb(225, 23, 127);
 }
 
-@media (max-width: 375px) {
+@media screen and (min-width: 0px) {
   .nav {
     padding: 0.2rem;
   }
@@ -244,7 +244,7 @@ footer.middle {
   }
   .nav .nav__link {
     font-size: 0.7rem;
-    color: white;
+    color: rgb(159, 147, 147);
   }
   .contact h2 {
     font-size: 2rem;
@@ -271,12 +271,24 @@ footer.middle {
     font-size: 1rem;
     line-height: 1rem;
   }
+  .about__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+  }
+  .about__job {
+    width: 80%;
+    height: 15rem;
+    font-size: 1rem;
+    line-height: 1rem;
+    overflow: auto;
+    border: 2px solid white;
+  }
 }
-@media screen and (max-width: 576px) {
+@media screen and (min-width: 576px) {
   .nav {
     padding: 0.2rem;
-    display: flex;
-    justify-content: start;
   }
   .nav__list {
     text-align: center;
@@ -302,7 +314,7 @@ footer.middle {
     font-size: 0.5rem;
   }
   .projects__item {
-    width: 100%;
+    width: 50%;
   }
   .about__bio-image p {
     border: 2px solid white;
@@ -320,21 +332,19 @@ footer.middle {
   }
   .about__job {
     width: 80%;
-    height: 28rem;
+    height: 18rem;
     font-size: 1rem;
     line-height: 1rem;
     overflow: auto;
     border: 2px solid white;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   body {
     width: 100%;
   }
   .nav {
     padding: 0.2rem;
-    display: flex;
-    justify-content: start;
   }
   .nav__list {
     text-align: center;
@@ -343,7 +353,7 @@ footer.middle {
     padding-right: 0.7rem;
   }
   .nav .nav__link {
-    font-size: 0.7rem;
+    font-size: 1rem;
     color: rgb(162, 152, 152);
   }
   .contact h2 {
@@ -354,15 +364,12 @@ footer.middle {
     gap: 2rem 1.2rem;
     font-size: 1.2rem;
   }
-  body {
-    width: 100%;
-  }
   .social-icons,
   .copyright {
     font-size: 0.5rem;
   }
   .projects__item {
-    width: 100%;
+    width: 50%;
   }
   .about__bio-image p {
     border: 2px solid white;
@@ -388,14 +395,12 @@ footer.middle {
     border: 2px solid white;
   }
   .projects__item {
-    width: 50%;
+    width: 33%;
   }
 }
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .nav {
     padding: 0.2rem;
-    display: flex;
-    justify-content: start;
   }
   .nav__list {
     text-align: center;
@@ -444,7 +449,7 @@ footer.middle {
     width: 33%;
   }
 }
-@media screen and (max-width: 1600px) {
+@media screen and (min-width: 1600px) {
   .nav {
     padding: 0.2rem;
     display: flex;
