@@ -1,6 +1,6 @@
 
 # hw-sass-Portfolio-Zidane
-https://ilkaybasboga.github.io/hw-boots-vikings/#
+https://ilkaybasboga.github.io/hw-sass-Portfolio-Zidane/#
 
 # Project : SASS Portfolio Zidane Website 
 
