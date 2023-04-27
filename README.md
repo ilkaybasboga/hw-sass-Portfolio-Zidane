@@ -51,9 +51,9 @@ SASS Portfolio Zidane Website . (folder)
   
 - Step 1: Creating the HTML structure,
 
-- Step 2:CSS part created
+- Step 2:SASS and CSS folder structure was created,
 
-- Step 3: JS file created,
+- Step 3: Variables were determined,
 
 - Step 4: Created Website
  
